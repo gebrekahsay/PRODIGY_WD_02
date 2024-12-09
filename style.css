@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(https://www.bing.com/th?id=OIP.6GFw9Sigrat-RK75zJYBiQHaEK&w=197&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #35c7c5;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#startPause {
+    background-color: #4CAF50;
+    color: white;
+}
+#startPause:hover{
+    color:#fff;
+    background-color: rgb(64, 60, 255);
+}
+
+#reset {
+    background-color: #f44336;
+    color: white;
+}
+#reset:hover{
+    color:#000;
+    background-color: #00f;
+}
+
+#lap {
+    background-color: #2196F3;
+    color: white;
+}
+#lap:hover{
+    background-color:#00f;
+    color: hsl(0, 0, 0);
+}
+#laps {
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
